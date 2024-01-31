@@ -1,33 +1,167 @@
-body {
+body{
+    margin: 0;
     font-family: sans-serif;
+    font-size: larger;
 }
 
-h1 {
+
+
+.navbar {
+    background-color: rgb(151, 92, 33);
+    padding: 10px 0;
     text-align: center;
-}
-h2 {
-    color: rgb(153, 135, 35);
-    text-decoration: underline;
-}
-.date {
-    color: rgb(79, 182, 219);
+    
+  }
+  
+  .navbar a {
+    color: white;
+    font-family:cursive;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #654321; /* Darker brown on hover */
+  }
+  .main{
+    margin-top: 140px;
+  }
+
+
+  main {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  main p {
     font-weight: bold;
+    font-family:sans-serif;
+    text-justify: auto;
+  }
+  section img{
+    width: 500px;
+    margin: 20px;
+  }
+
+  main ul{
+    font-weight: bold;
+    margin: bottom 3px;
+  }
+  #back{
+    width: 100%;
+
+  }
+
+  section {
+    display: flex;
+  }
+
+  .divider {
+    width: 100%; /* Set the width to span the entire page */
+    height: 5px; /* Set the height of the line */
+    background-color:#975c21; /* Set the line color to brown */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    margin-bottom: 10px;
+  }
+
+  .content-wrapper{
+    padding-left: 0; /* Remove default padding */
+    list-style-type: none; /* Remove default bullet points */
+  }
+  
+  .content-wrapper li {
+    margin-bottom: 20px; /* Add spacing between list items */
+  }
+  .content-wrapper img {
+    width: 500px;
+    margin: 20px;
+
+  }
+  
+/* CSS styles for the input and button */
+#consumption {
+  padding: 8px;
+  border: 1px solid #975c21 ;
+  border-radius: 20px;
+  border-width: 4px;
+  margin-right: 10px; /* Adjust margin as needed */
 }
 
-.entry {
-    font-family: cursive;
+#consumption:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #654321; /* Change border color on focus */
 }
 
-div {
-    background-color: rgb(216, 40, 69);
-    border: 2px solid purple;
-    border-radius: 10px;
-    width: 70%;
-    margin: auto; /* Centers div in page */
-    text-align: center; /* Centers div's contents */
+#calculateButton {
+  padding: 8px 16px;
+  background-color: #975c21;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: larger;
 }
 
-section {
+#calculateButton:hover {
+  background-color: #654321; /* Darker color on hover */
+}
+  #Enter {
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  .content-wrapper h2{
+    font-size: 30px ;
+  }
+  
+  cite {
+    font-style: normal;
+    text-decoration: underline;
+  }
+
+  /* CSS styles for the results */
+#resultsList {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+#resultsList li {
+  margin-bottom: 10px; /* Add spacing between each result */
+  font-size: 22px; /* Adjust font size */
+  color: #333; /* Adjust text color */
+}
+
+#resultsList li::before {
+  content: "• "; /* Add bullet point before each result */
+  color: #975c21; /* Adjust bullet point color */
+}
+
+#mail{
+  font-size: larger;
+}
+
+@media (max-width: 768px) {
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+    background-color: #975c21;
+    color: #fff;
+    padding: 1px 0;
     text-align: center;
+    /* margin-inline-end: 0%; */
 }
 
+.footer-content {
+    max-width: 1200px;
+    margin:auto;
+}
