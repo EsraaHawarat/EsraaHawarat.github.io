@@ -154,14 +154,16 @@ img {
 }
 
 footer {
-    background-color: #975c21;
-    color: #fff;
-    padding: 1px 0;
-    text-align: center;
-    /* margin-inline-end: 0%; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #975c21;
+  color: #fff;
+  padding: 0px 0;
+  text-align: center;
 }
 
 .footer-content {
-    max-width: 1200px;
-    margin:auto;
+  max-width: 1200px;
+  margin: auto;
 }
